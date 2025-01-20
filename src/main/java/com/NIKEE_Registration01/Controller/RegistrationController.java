@@ -29,7 +29,7 @@ public class RegistrationController {
 	
 	@GetMapping("/get/{userName}")
 	public ResponseEntity<Registration> getuser(@PathVariable("userName") String userName) {
-	
+	//get the user details by using user name
 		return ResponseEntity.ok(rs.findById(userName));
 		
 	}
