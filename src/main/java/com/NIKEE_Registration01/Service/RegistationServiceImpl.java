@@ -32,6 +32,7 @@ public class RegistationServiceImpl implements RegistrationService{
 	@Override
 	public List<Registration> findAll() {
 		// TODO Auto-generated method stub
+		//to get all the details
 		   return rr.findAll();
 	}
 
